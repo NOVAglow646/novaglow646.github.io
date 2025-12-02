@@ -5,46 +5,347 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Qixun Wang (王启迅)</title>
   <style>
-    body { margin:0; font-family: 'Segoe UI', sans-serif; color:#333; background:#f7f9fc; }
-    header { background:#fff; border-bottom:1px solid #e0e0e0; }
-    .header-container { max-width:900px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:15px 0; }
-    .site-name { font-weight:600; font-size:1.1rem; color:#444; }
+    :root {
+      --bg-main: #f4f6fb;
+      --bg-card: #ffffff;
+      --accent: #2563eb;
+      --accent-soft: rgba(37, 99, 235, 0.08);
+      --text-main: #111827;
+      --text-subtle: #6b7280;
+      --border-subtle: #e5e7eb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: var(--text-main);
+      background: radial-gradient(circle at top left, #e0edff 0, #f4f6fb 35%, #f9fafb 100%);
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.9);
+      border-bottom: 1px solid var(--border-subtle);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .header-container {
+      max-width: 980px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 20px;
+    }
+
+    .site-name {
+      font-weight: 650;
+      font-size: 1.1rem;
+      letter-spacing: 0.02em;
+      color: var(--text-main);
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .site-name span.cn {
+      font-size: 0.8rem;
+      color: var(--text-subtle);
+      letter-spacing: 0.06em;
+    }
+
     .nav { display:flex; gap:20px; }
-    .nav a { color:#777; text-decoration:none; font-size:0.95rem; padding-bottom:5px; }
-    .nav a.active { color:#333; border-bottom:2px solid #007acc; }
-    .layout { display:flex; max-width:900px; margin:30px auto; }
-    .sidebar { width:200px; flex-shrink:0; padding-right:20px; border-right:1px solid #e0e0e0; }
+
+    .nav a {
+      color: var(--text-subtle);
+      text-decoration: none;
+      font-size: 0.9rem;
+      padding-bottom: 4px;
+      position: relative;
+    }
+
+    .nav a::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      background: linear-gradient(90deg, #2563eb, #4f46e5);
+      border-radius: 999px;
+      transition: width 0.18s ease-out;
+    }
+
+    .nav a:hover::after,
+    .nav a.active::after {
+      width: 100%;
+    }
+
+    .nav a.active {
+      color: var(--text-main);
+      font-weight: 550;
+    }
+
+    .layout {
+      max-width: 980px;
+      margin: 26px auto 40px;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: minmax(0, 240px) minmax(0, 1.6fr);
+      gap: 28px;
+      align-items: flex-start;
+    }
+
+    .sidebar {
+      background: var(--bg-card);
+      border-radius: 18px;
+      border: 1px solid var(--border-subtle);
+      padding: 22px 18px 18px;
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.06);
+      position: sticky;
+      top: 78px;
+    }
+
     .sidebar img {
       width: 120px;
-      height: auto;
-      max-height: 120px;
+      height: 120px;
       border-radius: 50%;
       object-fit: cover;
       display: block;
-      margin: 0 auto;
+      margin: 0 auto 10px;
+      box-shadow: 0 0 0 3px var(--bg-card), 0 0 0 6px var(--accent-soft);
     }
-    .sidebar .name { text-align:center; margin:15px 0 5px; font-weight:600; }
-    .sidebar .role { text-align:center; font-size:0.9rem; color:#555; margin-bottom:15px; }
-    .sidebar a, .sidebar p { display:flex; align-items:center; gap:8px; font-size:0.9rem; color:#555; text-decoration:none; margin:8px 0; }
-    .sidebar a:hover { text-decoration:underline; }
-    main { flex:1; padding-left:30px; }
-    main h1 { font-size:1.8rem; margin-top:0; }
-    section { margin-bottom:40px; }
-    section h2 { font-size:1.4rem; color:#007acc; margin-bottom:15px; border-bottom:1px solid #e0e0e0; padding-bottom:5px; }
-    .pub-list { list-style:none; padding:0; }
-    .pub-list li { margin-bottom:20px; }
-    .pub-title { font-style:italic; font-weight:600; }
-    .pub-authors, .pub-src { font-size:0.95rem; color:#555; margin:5px 0; }
-    .pub-links a { margin-right:10px; color:#007acc; text-decoration:none; font-size:0.9rem; }
-    .pub-year { float:right; font-size:0.9rem; color:#999; }
-    footer { text-align:center; font-size:0.85rem; color:#888; margin:60px 0; }
+
+    .sidebar .name {
+      text-align: center;
+      margin: 10px 0 4px;
+      font-weight: 650;
+      font-size: 1.05rem;
+    }
+
+    .sidebar .role {
+      text-align: center;
+      font-size: 0.88rem;
+      color: var(--text-subtle);
+      margin-bottom: 10px;
+      line-height: 1.4;
+    }
+
+    .sidebar .tagline {
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin: 0 auto 12px;
+      display: inline-block;
+    }
+
+    .sidebar .meta-group {
+      border-top: 1px dashed var(--border-subtle);
+      margin-top: 10px;
+      padding-top: 8px;
+    }
+
+    .sidebar p,
+    .sidebar a {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.86rem;
+      color: var(--text-subtle);
+      text-decoration: none;
+      margin: 6px 0;
+    }
+
+    .sidebar a:hover {
+      color: var(--accent);
+    }
+
+    .sidebar i {
+      width: 16px;
+      text-align: center;
+      color: var(--accent);
+      font-size: 0.9rem;
+    }
+
+    main {
+      background: var(--bg-card);
+      border-radius: 18px;
+      border: 1px solid var(--border-subtle);
+      padding: 22px 24px 26px;
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.05);
+    }
+
+    main h1 {
+      font-size: 1.75rem;
+      margin: 0 0 14px;
+      letter-spacing: 0.01em;
+    }
+
+    #about > p {
+      margin-top: 0;
+      font-size: 0.96rem;
+      line-height: 1.7;
+      color: var(--text-subtle);
+    }
+
+    #about ul {
+      padding-left: 18px;
+      margin-top: 10px;
+    }
+
+    #about li {
+      margin-bottom: 6px;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    section { margin-bottom: 32px; }
+
+    section h2 {
+      font-size: 1.15rem;
+      color: var(--text-main);
+      margin-bottom: 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px dashed var(--border-subtle);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    section h2::before {
+      content: '';
+      width: 5px;
+      height: 18px;
+      border-radius: 999px;
+      background: linear-gradient(180deg, #2563eb, #4f46e5);
+    }
+
+    #education ul,
+    #experience ul,
+    #awards ul {
+      padding-left: 16px;
+      margin: 4px 0 0;
+      font-size: 0.95rem;
+    }
+
+    #education li,
+    #experience li,
+    #awards li {
+      margin-bottom: 4px;
+      line-height: 1.5;
+    }
+
+    .pub-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .pub-list li {
+      margin-bottom: 18px;
+      padding-bottom: 10px;
+      border-bottom: 1px dashed var(--border-subtle);
+    }
+
+    .pub-list li:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .pub-title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 0.98rem;
+    }
+
+    .pub-authors,
+    .pub-src {
+      font-size: 0.9rem;
+      color: var(--text-subtle);
+      margin: 4px 0;
+    }
+
+    .pub-src {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .pub-links {
+      margin-top: 4px;
+    }
+
+    .pub-links a {
+      margin-right: 12px;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.86rem;
+    }
+
+    .pub-links a:hover {
+      text-decoration: underline;
+    }
+
+    .pub-year {
+      font-size: 0.85rem;
+      color: #9ca3af;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #9ca3af;
+      margin: 26px 0 32px;
+    }
+
+    footer span {
+      opacity: 0.85;
+    }
+
+    @media (max-width: 720px) {
+      .header-container {
+        padding-inline: 16px;
+      }
+
+      .layout {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 18px;
+      }
+
+      .sidebar {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .sidebar p,
+      .sidebar a {
+        justify-content: center;
+      }
+
+      main {
+        padding: 18px 16px 20px;
+      }
+    }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <header>
     <div class="header-container">
-      <div class="site-name">Qixun Wang (王启迅)</div>
+      <div class="site-name">
+        <span>Qixun Wang</span>
+        <span class="cn">王启迅</span>
+      </div>
       <nav class="nav">
         <a href="#" class="active">Home</a>
       </nav>
@@ -54,28 +355,34 @@
     <aside class="sidebar">
       <img src="wqx3.jpg" alt="Qixun Wang">
       <div class="name">Qixun Wang</div>
-      <div class="role">Ph.D. Student<br>Peking University</div>
-      <p><i class="fa fa-home"></i> Beijing, China</p>
-      <p><i class="fa fa-envelope"></i> <a href="mailto:qixun.wang@pku.edu.cn">qixun.wang@pku.edu.cn</a></p>
-      <p><i class="fab fa-github"></i>  <a href="https://github.com/NOVAglow646">GitHub</a></p>
-      <p>
-        <i class="fab fa-google-scholar"></i>
-        <a href="https://scholar.google.com/citations?user=a_dDoucAAAAJ&hl=en">Google Scholar</a>
-      </p>
-      <p><i class="fa fa-pencil" aria-hidden="true"></i> <a href="https://github.com/NOVAglow646/LLM-MLLM-paper-list">LLM/VLM Reading List</a></p>
-      <p><i class="fa fa-pencil" aria-hidden="true"></i> <a href="https://github.com/NOVAglow646/OOD-Generalization-Paper-Reading-Notes">OOD Reading List</a></p>
+      <div class="role">Ph.D. Student · SIST, Peking University</div>
+      <div class="meta-group">
+        <p><i class="fa fa-location-dot"></i> Beijing, China</p>
+        <p><i class="fa fa-envelope"></i> <a href="mailto:qixun.wang@pku.edu.cn">qixun.wang@pku.edu.cn</a></p>
+        <p><i class="fab fa-github"></i>  <a href="https://github.com/NOVAglow646" target="_blank" rel="noopener">GitHub</a></p>
+        <p><i class="fa fa-graduation-cap"></i> <a href="https://scholar.google.com/citations?user=a_dDoucAAAAJ&hl=en" target="_blank" rel="noopener">Google&nbsp;Scholar</a></p>
+        <p><i class="fa fa-file-lines"></i> <a href="resume.pdf" target="_blank" rel="noopener">CV</a></p>
+      </div>
     </aside>
     <main>
       <h1>About Me</h1>
       <section id="about">
-        <p>I'm a third-year Ph.D. student in the School of Intelligence Science and Technology, Peking University. My research interests include:</p>
+        <p>I'm a third-year Ph.D. student in the School of Intelligence Science and Technology at Peking University. My research interests include:</p>
         <ul>
-          <li><strong>Mechanism and applications of (multimodal) LLMs</strong>: Including in-context learning (ICL), reasoning and perception.</li>
-          <li><strong>Theory and algorithmic design of OOD generalization</strong>: Including generalization problems across various machine learning models and scenarios, like domain generalization (DG) in computer vision tasks, graph OOD generalization, and generalization of LLMs.</li>
+          <li><strong>Mechanism and applications of (multimodal) LLMs</strong>, including in-context learning (ICL), reasoning, and perception of multimodal LLMs.</li>
+          <li><strong>Out-of-distribution (OOD) generalization</strong>, including theoretical analysis and algorithm design across various models and scenarios, such as classical computer vision tasks, graph data, and the generalization behavior of LLMs.</li>
+        </ul>
+      </section>
+      <section id="news">
+        <h2>🔥News</h2>
+        <ul>
+          <li><strong>2025.11</strong> Monet released on arXiv (Reasoning in latent visual space).</li>
+          <li><strong>2025.02</strong> One paper accepted to CVPR 2025 (Audio-Visual Instance Segmentation).</li>
+          <li><strong>2025.01</strong> One paper accepted to ICLR 2025 (Analysis of in-context learning on OOD tasks).</li>
         </ul>
       </section>
       <section id="education">
-        <h2>Education</h2>
+        <h2>🎓Education</h2>
         <ul>
           <li>B.S. in Intelligence Science and Technology, EECS</li>
           <div class="pub-src"><strong>Peking University</strong><span class="pub-year">2019~2023</span></div>
@@ -84,7 +391,7 @@
         </ul>
       </section>
       <section id="publications">
-        <h2>Publications</h2>
+        <h2>📚Publications</h2>
         <ol class="pub-list">
           <li>
             <div class="pub-title">Monet: Reasoning in Latent Visual Space Beyond Images and Language</div>
@@ -98,6 +405,13 @@
               Yisen Wang</div>
             <div class="pub-src">Arxiv preprint <span class="pub-year">2025</span></div>
             <div class="pub-links"><a href="http://arxiv.org/abs/2511.21395">paper</a><a href="https://github.com/NOVAglow646/Monet">code</a></div>
+          </li>
+          <li>
+            <div class="pub-title">RealUnify: Do Unified Models Truly Benefit from Unification? A Comprehensive Benchmark</div>
+            <div class="pub-authors">
+              Yang Shi, Yuhao Dong, Yue Ding, Yuran Wang, Xuanyu Zhu, Sheng Zhou, Wenting Liu, Haochen Tian, Rundong Wang, Huanqian Wang, Zuyan Liu, Bohan Zeng, Ruizhe Chen, <strong>Qixun Wang</strong>, Zhuoran Zhang, Xinlong Chen, Chengzhuo Tong, Bozhou Li, Chaoyou Fu, Qiang Liu, Haotian Wang, Wenjing Yang, Yuanxing Zhang, Pengfei Wan, Yi-Fan Zhang, Ziwei Liu</div>
+            <div class="pub-src">Arxiv preprint <span class="pub-year">2025</span></div>
+            <div class="pub-links"><a href="https://arxiv.org/abs/2509.24897">paper</a><a href="https://github.com/FrankYang-17/RealUnify">code</a></div>
           </li>
           <li>
             <div class="pub-title">Audio-Visual Instance Segmentation</div>
@@ -136,14 +450,14 @@
         </ol>
       </section>
       <section id="experience">
-        <h2>Experience</h2>
+        <h2>💼Experience</h2>
         <ul>
           <li>Reviewer: ICML, ICLR, NeurIPS, AAAI, TMLR</li>
           <li>TA: Computer Vision (SIST, PKU), Spring 2024</li>
         </ul>
       </section>
       <section id="awards">
-        <h2>Awards</h2>
+        <h2>🏆Awards</h2>
         <ul>
           <li>The Third-Class Scholarship of Peking University (2025)</li>
           <li>Merit Student at Peking University (2025)</li>
@@ -156,5 +470,8 @@
       </section>
     </main>
   </div>
+  <footer>
+    <span>&copy; 2025 Qixun Wang. Built with GitHub Pages.</span>
+  </footer>
 </body>
 </html>
