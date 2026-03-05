@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ICL OOD teaser</title>
+  <desc id="desc">Teaser image for ICL OOD paper</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="80" y="250" fill="#ffffff" font-size="50" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Can In-context Learning Really Generalize</text>
+  <text x="80" y="315" fill="#d1fae5" font-size="34" font-family="Segoe UI, Arial, sans-serif">to Out-of-distribution Tasks?</text>
+  <text x="80" y="380" fill="#d1fae5" font-size="30" font-family="Segoe UI, Arial, sans-serif">ICLR 2025</text>
+</svg>

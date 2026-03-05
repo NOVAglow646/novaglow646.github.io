@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Invariant graphs teaser</title>
+  <desc id="desc">Teaser image for invariant learning on graphs paper</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="80" y="250" fill="#ffffff" font-size="50" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Dissecting the Failure of</text>
+  <text x="80" y="315" fill="#ede9fe" font-size="50" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Invariant Learning on Graphs</text>
+  <text x="80" y="380" fill="#ede9fe" font-size="30" font-family="Segoe UI, Arial, sans-serif">NeurIPS 2024</text>
+</svg>

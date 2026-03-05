@@ -107,6 +107,28 @@
   }
 }
 
+.publication-list-item__teaser {
+  margin-bottom: 1em;
+}
+
+.publication-list-item__content {
+  min-width: 0;
+}
+
+@include breakpoint($small) {
+  .publication-list-item__article {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+  }
+
+  .publication-list-item__teaser {
+    width: 260px;
+    flex: 0 0 260px;
+    margin-bottom: 0;
+  }
+}
+
 
 /*
    Grid view

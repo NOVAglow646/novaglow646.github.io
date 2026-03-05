@@ -1,14 +1,14 @@
 ---
-title: "Paper Title Number 1"
+title: "Monet: Reasoning in Latent Visual Space Beyond Images and Language"
 collection: publications
-category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+category: conferences
+permalink: /publication/2025-11-01-monet-latent-visual-space
+excerpt: 'Reasoning in latent visual space for unified multimodal understanding and generation.'
+date: 2025-11-01
+venue: 'CVPR 2026'
+header:
+  teaser: publications/monet-teaser.svg
+paperurl: 'http://arxiv.org/abs/2511.21395'
+citation: 'Qixun Wang, Yang Shi, Yifei Wang, Yuanxing Zhang, Pengfei Wan, Kun Gai, Xianghua Ying, Yisen Wang. (2025). "Monet: Reasoning in Latent Visual Space Beyond Images and Language." CVPR 2026.'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Code: [GitHub](https://github.com/NOVAglow646/Monet)
