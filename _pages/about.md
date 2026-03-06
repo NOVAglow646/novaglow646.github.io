@@ -58,7 +58,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 
 ## 🔥 News
 
-- **2026.03** I will be joining Kling Team (Kuasishou) as a research intern.
+- **2026.03** I will be joining Kling Team (Kuaishou Technology) as a research intern.
 - **2026.02** Two papers accepted by CVPR 2026 (Reasoning in latent visual space & Benchmark for unified multimodal models).
 - **2025.02** One paper accepted by CVPR 2025 (Audio-Visual Instance Segmentation).
 - **2025.01** One paper accepted by ICLR 2025 (Analysis of in-context learning on OOD tasks).
