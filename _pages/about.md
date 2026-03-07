@@ -110,9 +110,9 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 
 
 
-<h2 id="experience"> 💼 Experience</h2>
-- **Kling Team, Kuaishou Technology (快手科技)** — Research Intern *(2026.02–Now)*  
-   Worked on multimodal agents
+<h2 id="experiences"> 💼 Experiences</h2>
+- **Kling Team, Kuaishou Technology (快手科技)** — Research Intern *(2026.03–Now)*  
+   Working on multimodal agents
 
 <h2 id="awards"> 🏆 Awards</h2>
 
