@@ -36,6 +36,15 @@ redirect_from:
       box-shadow: none;
    }
 
+   .paper-teaser {
+      width: 220px;
+      height: 135px;
+      max-width: 40%;
+      object-fit: contain;
+      border-radius: 8px;
+      flex: 0 0 220px;
+   }
+
    @media screen and (min-width: 1024px) {
       #main {
          max-width: 1800px;
@@ -74,7 +83,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 <p><a href="https://scholar.google.com/citations?user=a_dDoucAAAAJ&hl=en" target="_blank" rel="noopener">Full publication list</a></p>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
-   <img src="/images/publications/artifact_taxonomy.png" alt="ArtifactBench teaser" style="width:220px;max-width:40%;height:auto;border-radius:8px;flex:0 0 220px;">
+   <img src="/images/publications/artifact_taxonomy.png" alt="ArtifactBench teaser" class="paper-teaser">
    <div>
       <p><strong>Artifact-Bench: Evaluating MLLMs on Detecting and Assessing the Artifacts of AI-Generated Videos</strong><br>
       Yuqi Tang*, Yang Shi*, Zhuoran Zhang*, <strong style="text-decoration: underline;">Qixun Wang*</strong>, Xuehai Bai, Yue Ding, Ruizhe Chen, Bohan Zeng, Xinlong Chen, Xuanyu Zhu, Bozhou Li, Yuran Wang, Yifan Dai, Chengzhuo Tong, Xinyu Liu, Yiyan Ji, Yujie Wei, Yuhao Dong, Shilin Yan, Fengxiang Wang, Yi-Fan Zhang†, Haotian Wang†, Yuanxing Zhang†, Pengfei Wan
@@ -83,7 +92,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 </div>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
-   <img src="/images/publications/SLVR.png" alt="SLVR teaser" style="width:220px;max-width:40%;height:auto;border-radius:8px;flex:0 0 220px;">
+   <img src="/images/publications/SLVR.png" alt="SLVR teaser" class="paper-teaser">
    <div>
       <p><strong>Semantic-Enriched Latent Visual Reasoning</strong><br>
       Tianrun Xu, Yue Sun, <strong style="text-decoration: underline;">Qixun Wang</strong>, Jingyi Lu, Yuan Wang, Tianren Zhang, Longteng Guo, Fengyun Rao, Jing LYU, Feng Chen, Jing Liu<br>
@@ -92,7 +101,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 </div>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
-   <img src="/images/publications/Monet2.png" alt="Monet teaser" style="width:220px;max-width:40%;height:auto;border-radius:8px;flex:0 0 220px;">
+   <img src="/images/publications/Monet2.png" alt="Monet teaser" class="paper-teaser">
    <div>
       <p><strong>Monet: Reasoning in Latent Visual Space Beyond Images and Language</strong><br>
       <strong style="text-decoration: underline;">Qixun Wang</strong>, Yang Shi, Yifei Wang, Yuanxing Zhang, Pengfei Wan, Kun Gai, Xianghua Ying, Yisen Wang<br>
@@ -101,7 +110,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 </div>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
-   <img src="/images/publications/ICL.png" alt="ICL-OOD teaser" style="width:220px;max-width:40%;height:auto;border-radius:8px;flex:0 0 220px;">
+   <img src="/images/publications/ICL.png" alt="ICL-OOD teaser" class="paper-teaser">
    <div>
       <p><strong>Can In-context Learning Really Generalize to Out-of-distribution Tasks?</strong><br>
       <strong style="text-decoration: underline;">Qixun Wang</strong>, Yifei Wang, Xianghua Ying, Yisen Wang<br>
@@ -110,7 +119,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 </div>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
-   <img src="/images/publications/Graph.png" alt="Invariant Learning on Graphs teaser" style="width:220px;max-width:40%;height:auto;border-radius:8px;flex:0 0 220px;">
+   <img src="/images/publications/Graph.png" alt="Invariant Learning on Graphs teaser" class="paper-teaser">
    <div>
       <p><strong>Dissecting the Failure of Invariant Learning on Graphs</strong><br>
       <strong style="text-decoration: underline;">Qixun Wang</strong>, Yifei Wang, Yisen Wang, Xianghua Ying<br>
@@ -119,7 +128,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 </div>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
-   <img src="/images/publications/AT.png" alt="OOD robustness teaser" style="width:220px;max-width:40%;height:auto;border-radius:8px;flex:0 0 220px;">
+   <img src="/images/publications/AT.png" alt="OOD robustness teaser" class="paper-teaser">
    <div>
       <p><strong>Improving Out-of-distribution Robustness by Adversarial Training with Structured Priors</strong><br>
       <strong style="text-decoration: underline;">Qixun Wang*</strong>, Yifei Wang*, Hong Zhu, Yisen Wang<br>
