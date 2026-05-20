@@ -76,7 +76,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
    <img src="/images/publications/artifact_taxonomy.png" alt="ArtifactBench teaser" style="width:220px;max-width:40%;height:auto;border-radius:8px;flex:0 0 220px;">
    <div>
       <p><strong>Artifact-Bench: Evaluating MLLMs on Detecting and Assessing the Artifacts of AI-Generated Videos</strong><br>
-      Yuqi Tang*, Yang Shi*, Zhuoran Zhang*, <strong>Qixun Wang*</strong>, Xuehai Bai, Yue Ding, Ruizhe Chen, Bohan Zeng, Xinlong Chen, Xuanyu Zhu, Bozhou Li, Yuran Wang, Yifan Dai, Chengzhuo Tong, Xinyu Liu, Yiyan Ji, Yujie Wei, Yuhao Dong, Shilin Yan, Fengxiang Wang, Yi-Fan Zhang†, Haotian Wang†, Yuanxing Zhang†, Pengfei Wan
+      Yuqi Tang*, Yang Shi*, Zhuoran Zhang*, <strong style="text-decoration: underline;">Qixun Wang*</strong>, Xuehai Bai, Yue Ding, Ruizhe Chen, Bohan Zeng, Xinlong Chen, Xuanyu Zhu, Bozhou Li, Yuran Wang, Yifan Dai, Chengzhuo Tong, Xinyu Liu, Yiyan Ji, Yujie Wei, Yuhao Dong, Shilin Yan, Fengxiang Wang, Yi-Fan Zhang†, Haotian Wang†, Yuanxing Zhang†, Pengfei Wan
       <span class="conf-badge">Arxiv Preprint 2026</span> — <a href="https://arxiv.org/pdf/2605.18984">paper</a> · <a href="https://github.com/FrankYang-17/Artifact-Bench">code</a></p>
    </div>
 </div>
@@ -85,7 +85,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
    <img src="/images/publications/SLVR.png" alt="SLVR teaser" style="width:220px;max-width:40%;height:auto;border-radius:8px;flex:0 0 220px;">
    <div>
       <p><strong>Semantic-Enriched Latent Visual Reasoning</strong><br>
-      Tianrun Xu, Yue Sun, <strong>Qixun Wang</strong>, Jingyi Lu, Yuan Wang, Tianren Zhang, Longteng Guo, Fengyun Rao, Jing LYU, Feng Chen, Jing Liu<br>
+      Tianrun Xu, Yue Sun, <strong style="text-decoration: underline;">Qixun Wang</strong>, Jingyi Lu, Yuan Wang, Tianren Zhang, Longteng Guo, Fengyun Rao, Jing LYU, Feng Chen, Jing Liu<br>
       <span class="conf-badge">ICML 2026</span> — <a href="https://arxiv.org/pdf/2605.19342">paper</a> · <a href="https://github.com/tinnel123666888/slvr">code</a></p>
    </div>
 </div>
@@ -94,7 +94,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
    <img src="/images/publications/Monet2.png" alt="Monet teaser" style="width:220px;max-width:40%;height:auto;border-radius:8px;flex:0 0 220px;">
    <div>
       <p><strong>Monet: Reasoning in Latent Visual Space Beyond Images and Language</strong><br>
-      <strong>Qixun Wang</strong>, Yang Shi, Yifei Wang, Yuanxing Zhang, Pengfei Wan, Kun Gai, Xianghua Ying, Yisen Wang<br>
+      <strong style="text-decoration: underline;">Qixun Wang</strong>, Yang Shi, Yifei Wang, Yuanxing Zhang, Pengfei Wan, Kun Gai, Xianghua Ying, Yisen Wang<br>
       <span class="conf-badge">CVPR 2026</span> — <a href="http://arxiv.org/abs/2511.21395">paper</a> · <a href="https://github.com/NOVAglow646/Monet">code</a></p>
    </div>
 </div>
@@ -103,7 +103,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
    <img src="/images/publications/ICL.png" alt="ICL-OOD teaser" style="width:220px;max-width:40%;height:auto;border-radius:8px;flex:0 0 220px;">
    <div>
       <p><strong>Can In-context Learning Really Generalize to Out-of-distribution Tasks?</strong><br>
-      <strong>Qixun Wang</strong>, Yifei Wang, Xianghua Ying, Yisen Wang<br>
+      <strong style="text-decoration: underline;">Qixun Wang</strong>, Yifei Wang, Xianghua Ying, Yisen Wang<br>
       <span class="conf-badge">ICLR 2025</span> — <a href="https://openreview.net/pdf?id=INe4otjryz">paper</a> · <a href="https://github.com/NOVAglow646/ICL-OOD">code</a></p>
    </div>
 </div>
@@ -112,7 +112,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
    <img src="/images/publications/Graph.png" alt="Invariant Learning on Graphs teaser" style="width:220px;max-width:40%;height:auto;border-radius:8px;flex:0 0 220px;">
    <div>
       <p><strong>Dissecting the Failure of Invariant Learning on Graphs</strong><br>
-      <strong>Qixun Wang</strong>, Yifei Wang, Yisen Wang, Xianghua Ying<br>
+      <strong style="text-decoration: underline;">Qixun Wang</strong>, Yifei Wang, Yisen Wang, Xianghua Ying<br>
       <span class="conf-badge">NeurIPS 2024</span> — <a href="https://arxiv.org/pdf/2411.02847">paper</a> · <a href="https://github.com/NOVAglow646/NeurIPS24-Invariant-Learning-on-Graphs">code</a></p>
    </div>
 </div>
@@ -121,7 +121,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
    <img src="/images/publications/AT.png" alt="OOD robustness teaser" style="width:220px;max-width:40%;height:auto;border-radius:8px;flex:0 0 220px;">
    <div>
       <p><strong>Improving Out-of-distribution Robustness by Adversarial Training with Structured Priors</strong><br>
-      <strong>Qixun Wang*</strong>, Yifei Wang*, Hong Zhu, Yisen Wang<br>
+      <strong style="text-decoration: underline;">Qixun Wang*</strong>, Yifei Wang*, Hong Zhu, Yisen Wang<br>
       <span class="conf-badge">NeurIPS 2022 <span class="conf-badge__spotlight">Spotlight</span></span> — <a href="https://arxiv.org/pdf/2210.06807">paper</a> · <a href="https://github.com/NOVAglow646/NIPS22-MAT-and-LDAT-for-OOD">code</a></p>
    </div>
 </div>
