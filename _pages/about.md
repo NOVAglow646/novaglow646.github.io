@@ -92,7 +92,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 </div>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
-   <img src="/images/publications/SLVR.png" alt="SLVR teaser" class="paper-teaser">
+   <img src="/images/publications/SLVR2.png" alt="SLVR teaser" class="paper-teaser">
    <div>
       <p><strong>Semantic-Enriched Latent Visual Reasoning</strong><br>
       Tianrun Xu, Yue Sun, <strong style="text-decoration: underline;">Qixun Wang</strong>, Jingyi Lu, Yuan Wang, Tianren Zhang, Longteng Guo, Fengyun Rao, Jing LYU, Feng Chen, Jing Liu<br>
@@ -110,7 +110,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 </div>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
-   <img src="/images/publications/ICL.png" alt="ICL-OOD teaser" class="paper-teaser">
+   <img src="/images/publications/ICL-OOD2.png" alt="ICL-OOD teaser" class="paper-teaser">
    <div>
       <p><strong>Can In-context Learning Really Generalize to Out-of-distribution Tasks?</strong><br>
       <strong style="text-decoration: underline;">Qixun Wang</strong>, Yifei Wang, Xianghua Ying, Yisen Wang<br>
@@ -119,7 +119,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 </div>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
-   <img src="/images/publications/Graph.png" alt="Invariant Learning on Graphs teaser" class="paper-teaser">
+   <img src="/images/publications/GRAPH-OOD2.png" alt="Invariant Learning on Graphs teaser" class="paper-teaser">
    <div>
       <p><strong>Dissecting the Failure of Invariant Learning on Graphs</strong><br>
       <strong style="text-decoration: underline;">Qixun Wang</strong>, Yifei Wang, Yisen Wang, Xianghua Ying<br>
@@ -128,7 +128,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 </div>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
-   <img src="/images/publications/AT.png" alt="OOD robustness teaser" class="paper-teaser">
+   <img src="/images/publications/AT-OOD2.png" alt="OOD robustness teaser" class="paper-teaser">
    <div>
       <p><strong>Improving Out-of-distribution Robustness by Adversarial Training with Structured Priors</strong><br>
       <strong style="text-decoration: underline;">Qixun Wang*</strong>, Yifei Wang*, Hong Zhu, Yisen Wang<br>
