@@ -53,15 +53,16 @@ redirect_from:
 
 I'm a third-year Ph.D. student in the School of Intelligence Science and Technology at Peking University. My research interests include:
 
-- **Mechanism and applications of (multimodal) LLMs**, including in-context learning (ICL), reasoning, and perception of multimodal LLMs.
+- **Multimodal Large Language Models (MLLMs)**: improving the perception and reasoning capabilities of MLLMs, including latent reasoning, agentic reasoning, etc.
 - **Out-of-distribution (OOD) generalization**, including theoretical analysis and algorithm design across various models and scenarios, such as classical computer vision tasks, graph data, and the generalization behavior of LLMs.
 
 ## 🔥 News
 
+- **2026.05** One paper is released on Arxiv (ArtifactBench for assessing MLLMs in AI-generated video detection).
+- **2026.05** One paper is accepted by ICML 2026 (Semantic enriched latent visual reasoning).
 - **2026.03** I will be joining Kling Team (Kuaishou Technology) as a research intern.
-- **2026.02** Two papers accepted by CVPR 2026 (Reasoning in latent visual space & Benchmark for unified multimodal models).
-- **2025.02** One paper accepted by CVPR 2025 (Audio-Visual Instance Segmentation).
-- **2025.01** One paper accepted by ICLR 2025 (Analysis of in-context learning on OOD tasks).
+- **2026.02** Two papers are accepted by CVPR 2026 (Reasoning in latent visual space & Benchmark for unified multimodal models).
+- **2025.02** One paper is accepted by CVPR 2025 (Audio-Visual Instance Segmentation).
 
 ## 🎓 Education
 
