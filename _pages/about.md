@@ -82,7 +82,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 </div>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
-   <img src="/images/publications/Monet2.png" alt="SLVR teaser" style="width:220px;max-width:40%;height:auto;border-radius:8px;flex:0 0 220px;">
+   <img src="/images/publications/SLVR.png" alt="SLVR teaser" style="width:220px;max-width:40%;height:auto;border-radius:8px;flex:0 0 220px;">
    <div>
       <p><strong>Semantic-Enriched Latent Visual Reasoning</strong><br>
       Tianrun Xu, Yue Sun, <strong>Qixun Wang</strong>, Jingyi Lu, Yuan Wang, Tianren Zhang, Longteng Guo, Fengyun Rao, Jing LYU, Feng Chen, Jing Liu<br>
