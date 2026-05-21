@@ -36,6 +36,11 @@ redirect_from:
       box-shadow: none;
    }
 
+   .conf-badge__arxiv {
+      background: linear-gradient(180deg, #ef4444 0%, #dc2626 100%);
+      border: 1px solid #b91c1c;
+   }
+
    .paper-teaser {
       width: 220px;
       height: 135px;
@@ -87,7 +92,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
    <div>
       <p><strong>Artifact-Bench: Evaluating MLLMs on Detecting and Assessing the Artifacts of AI-Generated Videos</strong><br>
       Yuqi Tang*, Yang Shi*, Zhuoran Zhang*, <strong style="text-decoration: underline;">Qixun Wang*</strong>, Xuehai Bai, Yue Ding, Ruizhe Chen, Bohan Zeng, Xinlong Chen, Xuanyu Zhu, Bozhou Li, Yuran Wang, Yifan Dai, Chengzhuo Tong, Xinyu Liu, Yiyan Ji, Yujie Wei, Yuhao Dong, Shilin Yan, Fengxiang Wang, Yi-Fan Zhang†, Haotian Wang†, Yuanxing Zhang†, Pengfei Wan
-      <span class="conf-badge">Arxiv Preprint 2026</span> — <a href="https://arxiv.org/pdf/2605.18984">paper</a> · <a href="https://github.com/FrankYang-17/Artifact-Bench">code</a></p>
+      <span class="conf-badge conf-badge__arxiv">Arxiv Preprint 2026</span> — <a href="https://arxiv.org/pdf/2605.18984">paper</a> · <a href="https://github.com/FrankYang-17/Artifact-Bench">code</a></p>
    </div>
 </div>
 
