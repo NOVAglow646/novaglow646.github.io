@@ -67,7 +67,7 @@ redirect_from:
 
 I'm a third-year Ph.D. student in the School of Intelligence Science and Technology at Peking University. My research interests include:
 
-- **Multimodal Large Language Models (MLLMs)**: improving the perception and reasoning capabilities of MLLMs, including latent reasoning, agentic reasoning, etc.
+- **Multimodal Large Language Models (MLLMs)**: including latent visual reasoning, agentic visual reasoning, evaluation of MLLMs, etc.
 - **Out-of-distribution (OOD) generalization**, including theoretical analysis and algorithm design across various models and scenarios, such as classical computer vision tasks, graph data, and the generalization behavior of LLMs.
 
 ## 🔥 News
@@ -131,7 +131,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
    </div>
 </div>
 
-<h2 id="publications"> 📚 Selected Publications</h2>
+<h2 id="publications"> 📚 Selected Preprints</h2>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
    <img src="/images/publications/artifact_taxonomy.png" alt="ArtifactBench teaser" class="paper-teaser">
