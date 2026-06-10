@@ -92,27 +92,6 @@ redirect_from:
   <ol class="publications-list">
     <li class="publication-item">
       <div class="publication-badges">
-        <span class="publication-badge">ICML</span>
-      </div>
-      <div>
-        <div class="publication-title">Semantic-Enriched Latent Visual Reasoning</div>
-        <div class="publication-authors">
-          Tianrun Xu, Yue Sun, <u>Qixun Wang</u>, Jingyi Lu, Yuan Wang, Tianren Zhang, Longteng Guo,
-          Fengyun Rao, Jing Lyu, Feng Chen, and Jing Liu
-        </div>
-        <div class="publication-venue"><em>ICML</em>, 2026</div>
-        <div class="publication-highlights">
-          <div>• Paper description placeholder.</div>
-        </div>
-        <div class="publication-links">
-          <a href="https://arxiv.org/pdf/2605.19342">PDF</a>
-          <a href="https://github.com/tinnel123666888/slvr">Code</a>
-        </div>
-      </div>
-    </li>
-
-    <li class="publication-item">
-      <div class="publication-badges">
         <span class="publication-badge">CVPR</span>
       </div>
       <div>
@@ -148,8 +127,7 @@ redirect_from:
         </div>
         <div class="publication-venue"><em>ICLR</em>, 2025</div>
         <div class="publication-highlights">
-          <div>• Reveal the capability boundary and algorithm selection mechanism of ICL on
-OOD tasks through carefully designed experiments and theoretical analysis.</div>
+          <div>• Reveal the capability boundary and algorithm selection mechanism of ICL on OOD tasks through carefully designed experiments and theoretical analysis.</div>
         </div>
         <div class="publication-links">
           <a href="https://openreview.net/pdf?id=INe4otjryz">PDF</a>
@@ -169,7 +147,8 @@ OOD tasks through carefully designed experiments and theoretical analysis.</div>
         </div>
         <div class="publication-venue"><em>NeurIPS</em>, 2024</div>
         <div class="publication-highlights">
-          <div>• Paper description placeholder.</div>
+          <div>• Theoretically and empirically demonstrate the failure modes of classic invariant learning approaches on graph data, and propose a new training objective with
+significant performance gains and theoretical guarantees.</div>
         </div>
         <div class="publication-links">
           <a href="https://arxiv.org/pdf/2411.02847">PDF</a>
@@ -192,7 +171,7 @@ OOD tasks through carefully designed experiments and theoretical analysis.</div>
         </div>
         <div class="publication-venue"><em>NeurIPS</em>, 2022</div>
         <div class="publication-highlights">
-          <div>• Paper description placeholder.</div>
+          <div>• Propose a simple yet effective low-rank adversarial training strategy that improves the OOD generalization of visual recognition models.</div>
         </div>
         <div class="publication-links">
           <a href="https://arxiv.org/pdf/2210.06807">PDF</a>
@@ -200,6 +179,28 @@ OOD tasks through carefully designed experiments and theoretical analysis.</div>
         </div>
       </div>
     </li>
+
+   <li class="publication-item">
+      <div class="publication-badges">
+        <span class="publication-badge">ICML</span>
+      </div>
+      <div>
+        <div class="publication-title">Semantic-Enriched Latent Visual Reasoning</div>
+        <div class="publication-authors">
+          Tianrun Xu, Yue Sun, <u>Qixun Wang</u>, Jingyi Lu, Yuan Wang, Tianren Zhang, Longteng Guo,
+          Fengyun Rao, Jing Lyu, Feng Chen, and Jing Liu
+        </div>
+        <div class="publication-venue"><em>ICML</em>, 2026</div>
+        <div class="publication-highlights">
+          <div>• Reveal and address the lack of semantic richness in latent embeddings learned by prior latent visual reasoning training paradigms.</div>
+        </div>
+        <div class="publication-links">
+          <a href="https://arxiv.org/pdf/2605.19342">PDF</a>
+          <a href="https://github.com/tinnel123666888/slvr">Code</a>
+        </div>
+      </div>
+    </li>
+
 
     <li class="publication-item">
       <div class="publication-badges">
@@ -214,7 +215,7 @@ OOD tasks through carefully designed experiments and theoretical analysis.</div>
         </div>
         <div class="publication-venue"><em>arXiv preprint</em>, 2026</div>
         <div class="publication-highlights">
-          <div>• Paper description placeholder.</div>
+          <div>• Propose a comprehensive benchmark for evaluating MLLMs’ ability to detect and analyze artifacts in AI-generated videos</div>
         </div>
         <div class="publication-links">
           <a href="https://arxiv.org/pdf/2605.18984">PDF</a>
@@ -234,7 +235,7 @@ OOD tasks through carefully designed experiments and theoretical analysis.</div>
         </div>
         <div class="publication-venue"><em>arXiv preprint</em>, 2026</div>
         <div class="publication-highlights">
-          <div>• Paper description placeholder.</div>
+          <div>• Propose a dual-perspective diagnostic framework for visual ignorance in VLMs, revealing how language-prior routing failures undermine both model grounding and benchmark validity</div>
         </div>
         <div class="publication-links">
           <a href="https://arxiv.org/pdf/2606.06890">PDF</a>
