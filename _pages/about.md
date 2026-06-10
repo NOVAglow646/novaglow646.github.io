@@ -102,12 +102,12 @@ redirect_from:
         </div>
         <div class="publication-venue"><em>CVPR</em>, 2026</div>
         <div class="publication-highlights">
-          <div>• 190+ GitHub stars</div>
           <div>
             • Propose a new framework for multimodal latent reasoning, including dataset construction,
             SFT, and RL algorithms, achieving significant improvements on both in-domain and OOD visual
             reasoning benchmarks
           </div>
+          <div>• 190+ GitHub stars</div>
         </div>
         <div class="publication-links">
           <a href="http://arxiv.org/abs/2511.21395">PDF</a>
