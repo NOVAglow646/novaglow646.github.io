@@ -87,7 +87,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 <p><a href="https://scholar.google.com/citations?user=a_dDoucAAAAJ&hl=en" target="_blank" rel="noopener">Full publication list</a></p>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
-   <img src="/images/publications/SLVR2.png" alt="SLVR teaser" class="paper-teaser">
+   <!-- <img src="/images/publications/SLVR2.png" alt="SLVR teaser" class="paper-teaser"> -->
    <div>
       <p><strong>Semantic-Enriched Latent Visual Reasoning</strong><br>
       Tianrun Xu, Yue Sun, <strong style="text-decoration: underline;">Qixun Wang</strong>, Jingyi Lu, Yuan Wang, Tianren Zhang, Longteng Guo, Fengyun Rao, Jing LYU, Feng Chen, Jing Liu<br>
@@ -96,7 +96,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 </div>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
-   <img src="/images/publications/Monet2.png" alt="Monet teaser" class="paper-teaser">
+   <!-- <img src="/images/publications/Monet2.png" alt="Monet teaser" class="paper-teaser"> -->
    <div>
       <p><strong>Monet: Reasoning in Latent Visual Space Beyond Images and Language</strong><br>
       <strong style="text-decoration: underline;">Qixun Wang</strong>, Yang Shi, Yifei Wang, Yuanxing Zhang, Pengfei Wan, Kun Gai, Xianghua Ying, Yisen Wang<br>
@@ -105,7 +105,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 </div>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
-   <img src="/images/publications/ICL-OOD2.png" alt="ICL-OOD teaser" class="paper-teaser">
+   <!-- <img src="/images/publications/ICL-OOD2.png" alt="ICL-OOD teaser" class="paper-teaser"> -->
    <div>
       <p><strong>Can In-context Learning Really Generalize to Out-of-distribution Tasks?</strong><br>
       <strong style="text-decoration: underline;">Qixun Wang</strong>, Yifei Wang, Xianghua Ying, Yisen Wang<br>
@@ -114,7 +114,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 </div>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
-   <img src="/images/publications/GRAPH-OOD2.png" alt="Invariant Learning on Graphs teaser" class="paper-teaser">
+   <!-- <img src="/images/publications/GRAPH-OOD2.png" alt="Invariant Learning on Graphs teaser" class="paper-teaser"> -->
    <div>
       <p><strong>Dissecting the Failure of Invariant Learning on Graphs</strong><br>
       <strong style="text-decoration: underline;">Qixun Wang</strong>, Yifei Wang, Yisen Wang, Xianghua Ying<br>
@@ -123,7 +123,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 </div>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
-   <img src="/images/publications/AT-OOD2.png" alt="OOD robustness teaser" class="paper-teaser">
+   <!-- <img src="/images/publications/AT-OOD2.png" alt="OOD robustness teaser" class="paper-teaser"> -->
    <div>
       <p><strong>Improving Out-of-distribution Robustness by Adversarial Training with Structured Priors</strong><br>
       <strong style="text-decoration: underline;">Qixun Wang*</strong>, Yifei Wang*, Hong Zhu, Yisen Wang<br>
@@ -134,11 +134,20 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 <h2 id="publications"> 📚 Selected Preprints</h2>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
-   <img src="/images/publications/artifact_taxonomy.png" alt="ArtifactBench teaser" class="paper-teaser">
+   <!-- <img src="/images/publications/artifact_taxonomy.png" alt="ArtifactBench teaser" class="paper-teaser"> -->
    <div>
       <p><strong>Artifact-Bench: Evaluating MLLMs on Detecting and Assessing the Artifacts of AI-Generated Videos</strong><br>
       Yuqi Tang*, Yang Shi*, Zhuoran Zhang*, <strong style="text-decoration: underline;">Qixun Wang*</strong>, and a group of outstanding researchers
       <span class="conf-badge conf-badge__arxiv">Arxiv Preprint 2026</span> — <a href="https://arxiv.org/pdf/2605.18984">paper</a> · <a href="https://github.com/FrankYang-17/Artifact-Bench">code</a></p>
+   </div>
+</div>
+
+<div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
+   <!-- <img src="/images/publications/artifact_taxonomy.png" alt="ArtifactBench teaser" class="paper-teaser"> -->
+   <div>
+      <p><strong>Diagnosing Visual Ignorance in Vision-Language Models</strong><br>
+      Runyu Zhou, Qi Zhang, <strong style="text-decoration: underline;">Qixun Wang</strong>, Yisen Wang
+      <span class="conf-badge conf-badge__arxiv">Arxiv Preprint 2026</span> — <a href="https://arxiv.org/abs/2606.06890">paper</a>
    </div>
 </div>
 
