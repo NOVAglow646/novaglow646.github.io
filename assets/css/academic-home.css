@@ -231,6 +231,16 @@
   font-size: 0.94rem;
 }
 
+.publication-highlights {
+  margin-top: 0.25rem;
+  color: var(--home-muted);
+  font-size: 0.9rem;
+}
+
+.publication-highlights div {
+  margin-top: 0.12rem;
+}
+
 .publication-links {
   margin-top: 0.35rem;
 }

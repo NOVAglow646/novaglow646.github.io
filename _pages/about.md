@@ -85,7 +85,7 @@ redirect_from:
 
 <section id="publications">
   <h2>
-    selected papers
+    Selected papers
     <span class="section-note">(<a href="https://scholar.google.com/citations?user=a_dDoucAAAAJ&amp;hl=en">see full publication</a>)</span>
   </h2>
 
@@ -101,6 +101,9 @@ redirect_from:
           Fengyun Rao, Jing Lyu, Feng Chen, and Jing Liu
         </div>
         <div class="publication-venue"><em>ICML</em>, 2026</div>
+        <div class="publication-highlights">
+          <div>• Paper description placeholder.</div>
+        </div>
         <div class="publication-links">
           <a href="https://arxiv.org/pdf/2605.19342">PDF</a>
           <a href="https://github.com/tinnel123666888/slvr">Code</a>
@@ -119,6 +122,14 @@ redirect_from:
           Xianghua Ying, and Yisen Wang
         </div>
         <div class="publication-venue"><em>CVPR</em>, 2026</div>
+        <div class="publication-highlights">
+          <div>• 190+ GitHub stars</div>
+          <div>
+            • Propose a new framework for multimodal latent reasoning, including dataset construction,
+            SFT, and RL algorithms, achieving significant improvements on both in-domain and OOD visual
+            reasoning benchmarks
+          </div>
+        </div>
         <div class="publication-links">
           <a href="http://arxiv.org/abs/2511.21395">PDF</a>
           <a href="https://github.com/NOVAglow646/Monet">Code</a>
@@ -136,6 +147,10 @@ redirect_from:
           <u>Qixun Wang</u>, Yifei Wang, Xianghua Ying, and Yisen Wang
         </div>
         <div class="publication-venue"><em>ICLR</em>, 2025</div>
+        <div class="publication-highlights">
+          <div>• Reveal the capability boundary and algorithm selection mechanism of ICL on
+OOD tasks through carefully designed experiments and theoretical analysis.</div>
+        </div>
         <div class="publication-links">
           <a href="https://openreview.net/pdf?id=INe4otjryz">PDF</a>
           <a href="https://github.com/NOVAglow646/ICL-OOD">Code</a>
@@ -153,6 +168,9 @@ redirect_from:
           <u>Qixun Wang</u>, Yifei Wang, Yisen Wang, and Xianghua Ying
         </div>
         <div class="publication-venue"><em>NeurIPS</em>, 2024</div>
+        <div class="publication-highlights">
+          <div>• Paper description placeholder.</div>
+        </div>
         <div class="publication-links">
           <a href="https://arxiv.org/pdf/2411.02847">PDF</a>
           <a href="https://github.com/NOVAglow646/NeurIPS24-Invariant-Learning-on-Graphs">Code</a>
@@ -173,6 +191,9 @@ redirect_from:
           <u>Qixun Wang*</u>, Yifei Wang*, Hong Zhu, and Yisen Wang
         </div>
         <div class="publication-venue"><em>NeurIPS</em>, 2022</div>
+        <div class="publication-highlights">
+          <div>• Paper description placeholder.</div>
+        </div>
         <div class="publication-links">
           <a href="https://arxiv.org/pdf/2210.06807">PDF</a>
           <a href="https://github.com/NOVAglow646/NIPS22-MAT-and-LDAT-for-OOD">Code</a>
@@ -192,6 +213,9 @@ redirect_from:
           Yuqi Tang*, Yang Shi*, Zhuoran Zhang*, <u>Qixun Wang*</u>, and a group of outstanding researchers
         </div>
         <div class="publication-venue"><em>arXiv preprint</em>, 2026</div>
+        <div class="publication-highlights">
+          <div>• Paper description placeholder.</div>
+        </div>
         <div class="publication-links">
           <a href="https://arxiv.org/pdf/2605.18984">PDF</a>
           <a href="https://github.com/FrankYang-17/Artifact-Bench">Code</a>
@@ -209,8 +233,11 @@ redirect_from:
           Runyu Zhou, Qi Zhang, <u>Qixun Wang</u>, and Yisen Wang
         </div>
         <div class="publication-venue"><em>arXiv preprint</em>, 2026</div>
+        <div class="publication-highlights">
+          <div>• Paper description placeholder.</div>
+        </div>
         <div class="publication-links">
-          <a href="https://arxiv.org/abs/2606.06890">PDF</a>
+          <a href="https://arxiv.org/pdf/2606.06890">PDF</a>
         </div>
       </div>
     </li>
@@ -218,7 +245,7 @@ redirect_from:
 </section>
 
 <section id="experiences">
-  <h2>experience</h2>
+  <h2>Experience</h2>
   <ul class="compact-list">
     <li>
       <strong>Kling Team, Kuaishou Technology (快手科技)</strong> — Research Intern
@@ -229,7 +256,7 @@ redirect_from:
 </section>
 
 <section id="education">
-  <h2>education</h2>
+  <h2>Education</h2>
   <ul class="compact-list">
     <li>
       Ph.D. Candidate in Machine Learning and Computer Vision, School of Intelligence Science and
@@ -242,7 +269,7 @@ redirect_from:
 </section>
 
 <section id="awards">
-  <h2>awards</h2>
+  <h2>Awards</h2>
   <ul class="compact-list">
     <li>The Third-Class Scholarship of Peking University (2025)</li>
     <li>Merit Student at Peking University (2025)</li>
