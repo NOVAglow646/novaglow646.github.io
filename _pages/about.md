@@ -137,7 +137,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
    <!-- <img src="/images/publications/artifact_taxonomy.png" alt="ArtifactBench teaser" class="paper-teaser"> -->
    <div>
       <p><strong>Artifact-Bench: Evaluating MLLMs on Detecting and Assessing the Artifacts of AI-Generated Videos</strong><br>
-      Yuqi Tang*, Yang Shi*, Zhuoran Zhang*, <strong style="text-decoration: underline;">Qixun Wang*</strong>, and a group of outstanding researchers
+      Yuqi Tang*, Yang Shi*, Zhuoran Zhang*, <strong style="text-decoration: underline;">Qixun Wang*</strong>, and a group of outstanding researchers<br>
       <span class="conf-badge conf-badge__arxiv">Arxiv Preprint 2026</span> — <a href="https://arxiv.org/pdf/2605.18984">paper</a> · <a href="https://github.com/FrankYang-17/Artifact-Bench">code</a></p>
    </div>
 </div>
@@ -146,7 +146,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
    <!-- <img src="/images/publications/artifact_taxonomy.png" alt="ArtifactBench teaser" class="paper-teaser"> -->
    <div>
       <p><strong>Diagnosing Visual Ignorance in Vision-Language Models</strong><br>
-      Runyu Zhou, Qi Zhang, <strong style="text-decoration: underline;">Qixun Wang</strong>, Yisen Wang
+      Runyu Zhou, Qi Zhang, <strong style="text-decoration: underline;">Qixun Wang</strong>, Yisen Wang<br>
       <span class="conf-badge conf-badge__arxiv">Arxiv Preprint 2026</span> — <a href="https://arxiv.org/abs/2606.06890">paper</a>
    </div>
 </div>
