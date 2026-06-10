@@ -49,7 +49,7 @@ redirect_from:
 </section>
 
 <section id="news">
-  <h2>news</h2>
+  <h2>News</h2>
   <div class="news-scroll">
     <table class="news-table">
       <tbody>
