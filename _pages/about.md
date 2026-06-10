@@ -147,7 +147,7 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
    <div>
       <p><strong>Diagnosing Visual Ignorance in Vision-Language Models</strong><br>
       Runyu Zhou, Qi Zhang, <strong style="text-decoration: underline;">Qixun Wang</strong>, Yisen Wang<br>
-      <span class="conf-badge conf-badge__arxiv">Arxiv Preprint 2026</span> — <a href="https://arxiv.org/abs/2606.06890">paper</a>
+      <span class="conf-badge conf-badge__arxiv">Arxiv Preprint 2026</span> — <a href="https://arxiv.org/abs/2606.06890">paper</a></p>
    </div>
 </div>
 
