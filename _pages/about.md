@@ -76,7 +76,6 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 - **2026.05** One paper is accepted by ICML 2026 (Semantic enriched latent visual reasoning).
 - **2026.03** I will be joining Kling Team (Kuaishou Technology) as a research intern.
 - **2026.02** Two papers are accepted by CVPR 2026 (Reasoning in latent visual space & Benchmark for unified multimodal models).
-- **2025.02** One paper is accepted by CVPR 2025 (Audio-Visual Instance Segmentation).
 
 ## 🎓 Education
 
@@ -86,15 +85,6 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
 <h2 id="publications"> 📚 Selected Publications</h2>
 
 <p><a href="https://scholar.google.com/citations?user=a_dDoucAAAAJ&hl=en" target="_blank" rel="noopener">Full publication list</a></p>
-
-<div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
-   <img src="/images/publications/artifact_taxonomy.png" alt="ArtifactBench teaser" class="paper-teaser">
-   <div>
-      <p><strong>Artifact-Bench: Evaluating MLLMs on Detecting and Assessing the Artifacts of AI-Generated Videos</strong><br>
-      Yuqi Tang*, Yang Shi*, Zhuoran Zhang*, <strong style="text-decoration: underline;">Qixun Wang*</strong>, Xuehai Bai, Yue Ding, Ruizhe Chen, Bohan Zeng, Xinlong Chen, Xuanyu Zhu, Bozhou Li, Yuran Wang, Yifan Dai, Chengzhuo Tong, Xinyu Liu, Yiyan Ji, Yujie Wei, Yuhao Dong, Shilin Yan, Fengxiang Wang, Yi-Fan Zhang†, Haotian Wang†, Yuanxing Zhang†, Pengfei Wan
-      <span class="conf-badge conf-badge__arxiv">Arxiv Preprint 2026</span> — <a href="https://arxiv.org/pdf/2605.18984">paper</a> · <a href="https://github.com/FrankYang-17/Artifact-Bench">code</a></p>
-   </div>
-</div>
 
 <div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
    <img src="/images/publications/SLVR2.png" alt="SLVR teaser" class="paper-teaser">
@@ -141,6 +131,16 @@ I'm a third-year Ph.D. student in the School of Intelligence Science and Technol
    </div>
 </div>
 
+<h2 id="publications"> 📚 Selected Publications</h2>
+
+<div style="display:flex;gap:16px;align-items:flex-start;margin:0 0 20px 0;">
+   <img src="/images/publications/artifact_taxonomy.png" alt="ArtifactBench teaser" class="paper-teaser">
+   <div>
+      <p><strong>Artifact-Bench: Evaluating MLLMs on Detecting and Assessing the Artifacts of AI-Generated Videos</strong><br>
+      Yuqi Tang*, Yang Shi*, Zhuoran Zhang*, <strong style="text-decoration: underline;">Qixun Wang*</strong>, and a group of outstanding researchers
+      <span class="conf-badge conf-badge__arxiv">Arxiv Preprint 2026</span> — <a href="https://arxiv.org/pdf/2605.18984">paper</a> · <a href="https://github.com/FrankYang-17/Artifact-Bench">code</a></p>
+   </div>
+</div>
 
 
 <h2 id="experiences"> 💼 Experiences</h2>
