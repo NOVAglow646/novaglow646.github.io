@@ -1,0 +1,50 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/academic-home.css">
+  </head>
+
+  <body class="academic-home">
+    {% include browser-upgrade.html %}
+
+    <header class="academic-nav">
+      <div class="academic-nav__inner">
+        <input class="academic-nav__toggle" type="checkbox" id="academic-nav-toggle">
+        <label class="academic-nav__button" for="academic-nav-toggle">
+          <span class="screen-reader-text">Toggle navigation</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <nav class="academic-nav__links" aria-label="Primary navigation">
+          <a class="active" href="{{ base_path }}/#about">about</a>
+          <a href="{{ base_path }}/#publications">publication</a>
+          <a href="{{ base_path }}/#experiences">experience</a>
+          <a href="{{ base_path }}/#education">education</a>
+          <a href="{{ base_path }}/#awards">awards</a>
+          <a href="{{ base_path }}/year-archive/">blog</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="academic-container" role="main">
+      <article class="academic-post">
+        {{ content }}
+      </article>
+    </main>
+
+    <footer class="academic-footer">
+      <div class="academic-container">
+        &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}
+      </div>
+    </footer>
+  </body>
+</html>

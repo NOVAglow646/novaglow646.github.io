@@ -1,0 +1,362 @@
+.academic-home {
+  --home-accent: #0062cc;
+  --home-text: #2f3033;
+  --home-muted: #666b73;
+  --home-border: #e5e7eb;
+  --home-bg: #ffffff;
+  margin: 0;
+  padding: 56px 0 0;
+  color: var(--home-text);
+  background: var(--home-bg);
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.academic-home a {
+  color: var(--home-accent);
+  text-decoration: none;
+}
+
+.academic-home a:hover {
+  text-decoration: underline;
+}
+
+.academic-nav {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  left: 0;
+  min-height: 56px;
+  border-bottom: 1px solid var(--home-border);
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.academic-nav__inner,
+.academic-container {
+  width: min(930px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.academic-nav__inner {
+  position: relative;
+  min-height: 56px;
+}
+
+.academic-nav__links {
+  display: flex;
+  min-height: 56px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.65rem;
+}
+
+.academic-nav__links a {
+  color: var(--home-text);
+  font-size: 0.95rem;
+}
+
+.academic-nav__links a.active {
+  color: var(--home-accent);
+  font-weight: 700;
+}
+
+.academic-nav__toggle,
+.academic-nav__button {
+  display: none;
+}
+
+.academic-post {
+  padding: 3rem 0 2rem;
+}
+
+.academic-post h1,
+.academic-post h2 {
+  color: var(--home-text);
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.academic-post h1 {
+  margin: 0 0 1.5rem;
+  font-size: 2.55rem;
+  font-weight: 300;
+  letter-spacing: -0.035em;
+}
+
+.academic-post h1 strong {
+  font-weight: 700;
+}
+
+.academic-post h2 {
+  margin: 2.1rem 0 1rem;
+  padding: 0 0 0.45rem;
+  border-bottom: 1px solid var(--home-border);
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.academic-post p {
+  margin: 0 0 1rem;
+}
+
+.academic-profile {
+  float: right;
+  width: 30%;
+  margin: 0 0 1rem 1.5rem;
+}
+
+.academic-profile img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border-radius: 4px;
+  object-fit: cover;
+  object-position: center 24%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.academic-intro::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.research-interests {
+  margin: 0.2rem 0 1rem;
+  padding-left: 1.25rem;
+}
+
+.research-interests li {
+  margin-bottom: 0.45rem;
+}
+
+.academic-social {
+  display: flex;
+  margin: 1.2rem 0 0.4rem;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.65rem;
+}
+
+.academic-social a {
+  color: var(--home-text);
+}
+
+.academic-social a:hover {
+  color: var(--home-accent);
+  text-decoration: none;
+}
+
+.news-scroll {
+  max-height: 13rem;
+  overflow-y: auto;
+}
+
+.news-table {
+  width: 100%;
+  margin: 0;
+  border: 0;
+  border-collapse: collapse;
+}
+
+.news-table th,
+.news-table td {
+  padding: 0.35rem 0.45rem;
+  border: 0;
+  vertical-align: top;
+  font-size: 0.94rem;
+  text-align: left;
+}
+
+.news-table th {
+  width: 20%;
+  padding-left: 0;
+  color: var(--home-text);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.section-note {
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.publications-list {
+  margin: 1.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.publication-item {
+  display: grid;
+  margin-bottom: 1.35rem;
+  grid-template-columns: 120px minmax(0, 1fr);
+  gap: 1.4rem;
+}
+
+.publication-badges {
+  text-align: center;
+}
+
+.publication-badge {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 0.4rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  color: #fff;
+  background: var(--home-accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.publication-badge.preprint {
+  background: #dc3545;
+}
+
+.publication-badge.spotlight {
+  background: #e67e22;
+}
+
+.publication-title {
+  margin-bottom: 0.15rem;
+  font-weight: 700;
+}
+
+.publication-authors,
+.publication-venue {
+  font-size: 0.94rem;
+}
+
+.publication-links {
+  margin-top: 0.35rem;
+}
+
+.publication-links a {
+  display: inline-block;
+  margin: 0.15rem 0.3rem 0 0;
+  padding: 0.18rem 0.8rem;
+  border: 1px solid var(--home-text);
+  border-radius: 3px;
+  color: var(--home-text);
+  font-size: 0.78rem;
+}
+
+.publication-links a:hover {
+  border-color: var(--home-accent);
+  color: var(--home-accent);
+  text-decoration: none;
+}
+
+.compact-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.compact-list li {
+  margin-bottom: 0.45rem;
+}
+
+.academic-footer {
+  padding: 1.4rem 0 2rem;
+  color: var(--home-muted);
+  font-size: 0.82rem;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .academic-home {
+    padding-top: 52px;
+  }
+
+  .academic-nav,
+  .academic-nav__inner {
+    min-height: 52px;
+  }
+
+  .academic-nav__button {
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    right: 0;
+    display: block;
+    width: 24px;
+    cursor: pointer;
+  }
+
+  .academic-nav__button span:not(.screen-reader-text) {
+    display: block;
+    height: 2px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    background: var(--home-text);
+  }
+
+  .academic-nav__links {
+    display: none;
+    min-height: auto;
+    padding: 3.4rem 0 1rem;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 0.65rem;
+  }
+
+  .academic-nav__toggle:checked ~ .academic-nav__links {
+    display: flex;
+  }
+
+  .academic-post {
+    padding-top: 2.1rem;
+  }
+
+  .academic-post h1 {
+    font-size: 2.15rem;
+  }
+
+  .academic-profile {
+    float: none;
+    width: min(70%, 270px);
+    margin: 0 auto 1.4rem;
+  }
+
+  .news-table th,
+  .news-table td {
+    display: block;
+    width: auto;
+    padding: 0.2rem 0;
+  }
+
+  .news-table td {
+    padding-bottom: 0.75rem;
+  }
+
+  .publication-item {
+    grid-template-columns: 82px minmax(0, 1fr);
+    gap: 0.8rem;
+  }
+
+  .publication-badge {
+    font-size: 0.7rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .academic-home {
+    --home-accent: #4da3ff;
+    --home-text: #e8e8e8;
+    --home-muted: #adb3bd;
+    --home-border: #34383f;
+    --home-bg: #181a1b;
+  }
+
+  .academic-nav {
+    background: rgba(24, 26, 27, 0.96);
+  }
+
+  .academic-profile img {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  }
+}
