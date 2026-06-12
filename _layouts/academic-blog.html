@@ -12,13 +12,12 @@ layout: compress
     <link rel="stylesheet" href="{{ base_path }}/assets/css/academic-home.css">
   </head>
 
-  <body class="academic-home">
+  <body class="academic-home academic-blog-page">
     {% include browser-upgrade.html %}
-
     {% include academic-nav.html %}
 
     <main class="academic-container" role="main">
-      <article class="academic-post">
+      <article class="academic-post academic-blog">
         {{ content }}
       </article>
     </main>

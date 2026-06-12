@@ -164,7 +164,7 @@ significant performance gains and theoretical guarantees.</div>
       </div>
       <div>
         <div class="publication-title">
-          Improving Out-of-distribution Robustness by Adversarial Training with Structured Priors
+          Improving Out-of-distribution Generalization by Adversarial Training with Structured Priors
         </div>
         <div class="publication-authors">
           <u>Qixun Wang*</u>, Yifei Wang*, Hong Zhu, and Yisen Wang

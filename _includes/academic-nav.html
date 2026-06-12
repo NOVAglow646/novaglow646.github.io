@@ -1,0 +1,21 @@
+{% include base_path %}
+
+<header class="academic-nav">
+  <div class="academic-nav__inner">
+    <input class="academic-nav__toggle" type="checkbox" id="academic-nav-toggle">
+    <label class="academic-nav__button" for="academic-nav-toggle">
+      <span class="screen-reader-text">Toggle navigation</span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav class="academic-nav__links" aria-label="Primary navigation">
+      <a{% if page.url == "/" %} class="active"{% endif %} href="{{ base_path }}/#about">about</a>
+      <a href="{{ base_path }}/#publications">publication</a>
+      <a href="{{ base_path }}/#experiences">experience</a>
+      <a href="{{ base_path }}/#education">education</a>
+      <a href="{{ base_path }}/#awards">awards</a>
+      <a{% if page.url != "/" %} class="active"{% endif %} href="{{ base_path }}/year-archive/">blog</a>
+    </nav>
+  </div>
+</header>
