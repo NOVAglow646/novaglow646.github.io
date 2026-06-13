@@ -13,7 +13,7 @@ redirect_from:
   <h1><strong>Qixun</strong> Wang <span lang="zh">王启迅</span></h1>
 
   <div class="academic-profile">
-    <img src="/images/qixun-profile.jpg" alt="Portrait of Qixun Wang">
+    <img src="/images/wqx_new.jpg" alt="Portrait of Qixun Wang">
   </div>
 
   <div class="academic-intro">
