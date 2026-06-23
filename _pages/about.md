@@ -107,7 +107,7 @@ redirect_from:
             SFT, and RL algorithms, achieving significant improvements on both in-domain and OOD visual
             reasoning benchmarks
           </div>
-          <div>• 190+ GitHub stars</div>
+          <div>• 200+ GitHub stars</div>
         </div>
         <div class="publication-links">
           <a href="http://arxiv.org/abs/2511.21395">PDF</a>
