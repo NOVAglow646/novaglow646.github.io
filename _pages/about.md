@@ -224,24 +224,7 @@ significant performance gains and theoretical guarantees.</div>
       </div>
     </li>
 
-    <li class="publication-item">
-      <div class="publication-badges">
-        <span class="publication-badge preprint">arXiv</span>
-      </div>
-      <div>
-        <div class="publication-title">Diagnosing Visual Ignorance in Vision-Language Models</div>
-        <div class="publication-authors">
-          Runyu Zhou, Qi Zhang, <u>Qixun Wang</u>, and Yisen Wang
-        </div>
-        <div class="publication-venue"><em>arXiv preprint</em>, 2026</div>
-        <div class="publication-highlights">
-          <div>• Propose a dual-perspective diagnostic framework for visual ignorance in VLMs, revealing how language-prior routing failures undermine both model grounding and benchmark validity</div>
-        </div>
-        <div class="publication-links">
-          <a href="https://arxiv.org/pdf/2606.06890">PDF</a>
-        </div>
-      </div>
-    </li>
+
   </ol>
 </section>
 
