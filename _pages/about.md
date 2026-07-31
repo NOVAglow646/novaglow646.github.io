@@ -92,6 +92,29 @@ redirect_from:
   <ol class="publications-list">
     <li class="publication-item">
       <div class="publication-badges">
+        <span class="publication-badge preprint">arXiv</span>
+      </div>
+      <div>
+        <div class="publication-title">Beacon: Knowing When and Why to Perform Agentic Visual Reasoning</div>
+        <div class="publication-authors">
+          <u>Qixun Wang</u>*, Yang Shi*, Letian Cheng, Zhuoran Zhang, Yan He, Yuqi Tang, Qi Zhang, Xinlei Yu, Ruizhe Chen, Tianrun Xu, Yuanxing Zhang, Pengfei Wan, Haotian Wang, Xianghua Ying
+        </div>
+        <div class="publication-venue"><em>CVPR</em>, 2026</div>
+        <div class="publication-highlights">
+          <div>
+            • Conduct a comprehensive analysis of reasoning-mode adaptiveness and tool-induced performance changes in existing agentic visual reasoning models.
+          </div>
+          <div>• Propose a novel training recipe that achieves state-of-the-art or competitive performance across 13 visual reasoning benchmarks, while improving reasoning-mode adaptiveness and delivering genuine tool-induced performance gains.</div>
+        </div>
+        <div class="publication-links">
+          <a href="https://arxiv.org/pdf/2607.28595">PDF</a>
+          <a href="https://github.com/NOVAglow646/Beacon">Code</a>
+        </div>
+      </div>
+    </li>
+
+    <li class="publication-item">
+      <div class="publication-badges">
         <span class="publication-badge">CVPR</span>
       </div>
       <div>
