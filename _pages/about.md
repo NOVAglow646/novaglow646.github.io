@@ -56,8 +56,13 @@ redirect_from:
         <tr>
           <th scope="row">May, 2026</th>
           <td>
-            One paper, <a href="https://arxiv.org/pdf/2605.18984">Artifact-Bench</a>, was released on
-            arXiv for assessing MLLMs in AI-generated video detection.
+            One paper, <a href="https://arxiv.org/pdf/2607.28595">Beacon</a>, won improving reasoning-mode adaptiveness and achieving genuine tool-induced performance gains in agentic visual reasoning, was released on arXiv.
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">May, 2026</th>
+          <td>
+            A paper entitled <a href="https://arxiv.org/pdf/2605.18984">Artifact-Bench</a>, which evaluates MLLMs for AI-generated video detection, was released on arXiv.
           </td>
         </tr>
         <tr>
