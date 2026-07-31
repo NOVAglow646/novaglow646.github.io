@@ -54,9 +54,9 @@ redirect_from:
     <table class="news-table">
       <tbody>
         <tr>
-          <th scope="row">May, 2026</th>
+          <th scope="row">July, 2026</th>
           <td>
-            One paper, <a href="https://arxiv.org/pdf/2607.28595">Beacon</a>, won improving reasoning-mode adaptiveness and achieving genuine tool-induced performance gains in agentic visual reasoning, was released on arXiv.
+            One paper, <a href="https://arxiv.org/pdf/2607.28595">Beacon</a>, on improving reasoning-mode adaptiveness and achieving genuine tool-induced performance gains in agentic visual reasoning, was released on arXiv.
           </td>
         </tr>
         <tr>
