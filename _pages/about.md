@@ -104,7 +104,7 @@ redirect_from:
         <div class="publication-authors">
           <u>Qixun Wang</u>*, Yang Shi*, Letian Cheng, Zhuoran Zhang, Yan He, Yuqi Tang, Qi Zhang, Xinlei Yu, Ruizhe Chen, Tianrun Xu, Yuanxing Zhang, Pengfei Wan, Haotian Wang, Xianghua Ying
         </div>
-        <div class="publication-venue"><em>CVPR</em>, 2026</div>
+        <div class="publication-venue"><em>arXiv preprint</em>, 2026</div>
         <div class="publication-highlights">
           <div>
             • Conduct a comprehensive analysis of reasoning-mode adaptiveness and tool-induced performance changes in existing agentic visual reasoning models.
