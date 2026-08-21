@@ -26,18 +26,16 @@ redirect_from:
 
 <ul class="research-interests">
   <li>
-    <strong>Multimodal Large Language Models (MLLMs)</strong>
+    <strong>Multimodal Large Language Models</strong>
     <ul>
       <li>
         <strong>Novel reasoning paradigms</strong>
         <ul>
           <li>
-            <strong>Agentic visual reasoning:</strong> data synthesis, supervised fine-tuning (SFT),
-            reinforcement learning (RL), and agent harness design.
+            <strong>Agentic visual reasoning:</strong> data synthesis, SFT, RL and agent harness design.
           </li>
           <li>
-            <strong>Latent visual reasoning:</strong> data synthesis, supervised fine-tuning (SFT),
-            and reinforcement learning (RL).
+            <strong>Latent visual reasoning:</strong> data synthesis, SFT, and RL designs.
           </li>
         </ul>
       </li>
@@ -52,7 +50,7 @@ redirect_from:
   </li>
 
   <li>
-    <strong>Out-of-distribution (OOD) generalization</strong>, with a focus on theoretical analysis
+    <strong>Out-of-distribution generalization</strong>, with a focus on theoretical analysis
     and algorithm design across diverse scenarios and modalities, including computer vision, graph
     data, and the generalization behavior of large language models.
   </li>
