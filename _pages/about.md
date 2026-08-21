@@ -23,16 +23,40 @@ redirect_from:
     </p>
 
     <p>My research interests include:</p>
-    <ul class="research-interests">
+
+<ul class="research-interests">
+  <li>
+    <strong>Multimodal Large Language Models (MLLMs)</strong>
+    <ul>
       <li>
-        <strong>Multimodal Large Language Models (MLLMs)</strong>, including latent visual reasoning,
-        agentic visual reasoning, and evaluation of MLLMs.
+        <strong>Novel reasoning paradigms</strong>
+        <ul>
+          <li>
+            <strong>Agentic visual reasoning:</strong> data synthesis, supervised fine-tuning (SFT),
+            reinforcement learning (RL), and agent harness design.
+          </li>
+          <li>
+            <strong>Latent visual reasoning:</strong> data synthesis, supervised fine-tuning (SFT),
+            and reinforcement learning (RL).
+          </li>
+        </ul>
       </li>
       <li>
-        <strong>Out-of-distribution (OOD) generalization</strong>, including theoretical analysis and
-        algorithm design across computer vision, graph data, and the generalization behavior of LLMs.
+        <strong>Evaluation and analysis</strong>
+        <ul>
+          <li>Attribution and analysis of agentic capabilities.</li>
+          <li>Evaluation of multimodal perception capabilities.</li>
+        </ul>
       </li>
     </ul>
+  </li>
+
+  <li>
+    <strong>Out-of-distribution (OOD) generalization</strong>, with a focus on theoretical analysis
+    and algorithm design across diverse scenarios and modalities, including computer vision, graph
+    data, and the generalization behavior of large language models.
+  </li>
+</ul>
 
     <div class="academic-social" aria-label="Contact links">
       <a href="mailto:qixun.wang@pku.edu.cn" title="Email" aria-label="Email">
