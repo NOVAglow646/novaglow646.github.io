@@ -29,6 +29,13 @@ redirect_from:
     <strong>Multimodal Large Language Models (MLLMs)</strong>
     <ul>
       <li>
+        <strong>Multimodal Understanding and Generation</strong>
+        <ul>
+          <li>Video understanding and captioning</li>
+          <li>MLLMs as coding agents for 3D/4D world generation</li>
+        </ul>
+      </li>
+      <li>
         <strong>Exploration of Novel reasoning paradigms</strong>
         <ul>
           <li>
@@ -37,13 +44,6 @@ redirect_from:
           <li>
             <strong>Latent visual reasoning:</strong> data synthesis, SFT, and RL designs.
           </li>
-        </ul>
-      </li>
-      <li>
-        <strong>Multimodal Understanding and Generation</strong>
-        <ul>
-          <li>Video understanding and captioning</li>
-          <li>MLLMs as coding agents for 3D/4D world generation</li>
         </ul>
       </li>
       <li>
