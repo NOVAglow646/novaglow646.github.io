@@ -18,7 +18,7 @@ redirect_from:
 
   <div class="academic-intro">
     <p>
-      I am a third-year Ph.D. student in the School of Intelligence Science and Technology at
+      I am a fourth-year Ph.D. student in the School of Intelligence Science and Technology at
       <strong>Peking University</strong>.
     </p>
 
@@ -26,10 +26,10 @@ redirect_from:
 
 <ul class="research-interests">
   <li>
-    <strong>Multimodal Large Language Models</strong>
+    <strong>Multimodal Large Language Models (MLLMs)</strong>
     <ul>
       <li>
-        <strong>Novel reasoning paradigms</strong>
+        <strong>Exploration of Novel reasoning paradigms</strong>
         <ul>
           <li>
             <strong>Agentic visual reasoning:</strong> data synthesis, SFT, RL and agent harness design.
@@ -37,6 +37,13 @@ redirect_from:
           <li>
             <strong>Latent visual reasoning:</strong> data synthesis, SFT, and RL designs.
           </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Multimodal Understanding and Generation</strong>
+        <ul>
+          <li>Video understanding and captioning</li>
+          <li>MLLMs as coding agents for 3D/4D world generation</li>
         </ul>
       </li>
       <li>
