@@ -260,7 +260,7 @@ significant performance gains and theoretical guarantees.</div>
 
 
     <li class="publication-item">
-      <div class="publication-badges">
+      <div class="publication-badges">x
         <span class="publication-badge preprint">arXiv</span>
       </div>
       <div>
@@ -289,7 +289,7 @@ significant performance gains and theoretical guarantees.</div>
   <h2>Experience</h2>
   <ul class="compact-list">
     <li>
-      <strong>Kling Team, Kuaishou Technology (快手科技)</strong> — Research Intern
+      <strong>Kling Team, Kuaishou Technology</strong> — Research Intern
       <em>(March 2026–present)</em><br>
       Working on multimodal agents.
     </li>
