@@ -36,7 +36,7 @@ redirect_from:
         </ul>
       </li>
       <li>
-        <strong>Exploration of Novel reasoning paradigms</strong>
+        <strong>Exploration of Novel Reasoning Paradigms</strong>
         <ul>
           <li>
             <strong>Agentic visual reasoning:</strong> data synthesis, SFT, RL and agent harness design.
@@ -47,7 +47,7 @@ redirect_from:
         </ul>
       </li>
       <li>
-        <strong>Evaluation and analysis</strong>
+        <strong>Evaluation and Analysis</strong>
         <ul>
           <li>Attribution and analysis of agentic capabilities.</li>
           <li>Evaluation of multimodal perception capabilities.</li>
@@ -57,7 +57,7 @@ redirect_from:
   </li>
 
   <li>
-    <strong>Out-of-distribution generalization</strong>, with a focus on theoretical analysis
+    <strong>Out-of-distribution Generalization</strong>, with a focus on theoretical analysis
     and algorithm design across diverse scenarios and modalities, including computer vision, graph
     data, and the generalization behavior of large language models.
   </li>
