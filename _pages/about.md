@@ -290,7 +290,7 @@ significant performance gains and theoretical guarantees.</div>
   <ul class="compact-list">
     <li>
       <strong>Kling Team, Kuaishou Technology</strong> — Research Intern
-      <em>(March 2026–present)</em><br>
+      (March 2026–present)<br>
       Working on multimodal agents.
     </li>
   </ul>
