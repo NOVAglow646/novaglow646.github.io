@@ -29,9 +29,9 @@ redirect_from:
       (<a href="https://arxiv.org/abs/2511.21395">Monet</a>,
       <a href="https://arxiv.org/pdf/2605.19342">SLVR</a>) and reasoning with visual tools
       (<a href="https://arxiv.org/pdf/2607.28595">Beacon</a>). Building on these capabilities, I explore
-      MLLM applications in audio-video captioning and understanding, enhancing dynamic 3D world
+      MLLM applications in audio-video captioning and understanding (<a href="https://arxiv.org/pdf/2607.28509">RefCaptioner</a>), enhancing dynamic 3D world
       generation through programming, assessing the authenticity of AI-generated videos
-      (<a href="https://arxiv.org/pdf/2605.18984">Artifact-Bench</a>), and GUI agents
+      (<a href="https://arxiv.org/pdf/2605.18984">Artifact-Bench</a>, Verus-Insight), and GUI agents
       (<a href="https://arxiv.org/abs/2608.04530">FocusMem</a>).
     </p>
 
