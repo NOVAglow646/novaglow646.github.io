@@ -22,46 +22,27 @@ redirect_from:
       <strong>Peking University</strong>.
     </p>
 
-    <p>My research interests include:</p>
+    <p>
+      My current research focuses on advancing the core capabilities of <strong>multimodal large language
+      models (MLLMs)</strong> and their downstream applications. I am particularly interested in post-training
+      methods that strengthen perception and reasoning, including reasoning in latent space
+      (<a href="https://arxiv.org/abs/2511.21395">Monet</a>,
+      <a href="https://arxiv.org/pdf/2605.19342">SLVR</a>) and reasoning with visual tools
+      (<a href="https://arxiv.org/pdf/2607.28595">Beacon</a>). Building on these capabilities, I explore
+      MLLM applications in audio-video captioning and understanding, enhancing dynamic 3D world
+      generation through programming, assessing the authenticity of AI-generated videos
+      (<a href="https://arxiv.org/pdf/2605.18984">Artifact-Bench</a>), and GUI agents
+      (<a href="https://arxiv.org/abs/2608.04530">FocusMem</a>).
+    </p>
 
-<ul class="research-interests">
-  <li>
-    <strong>Multimodal Large Language Models (MLLMs)</strong>
-    <ul>
-      <li>
-        <strong>Multimodal Understanding and Generation</strong>
-        <ul>
-          <li>Video understanding and captioning</li>
-          <li>MLLMs as coding agents for 3D/4D world generation</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Exploration of Novel Reasoning Paradigms</strong>
-        <ul>
-          <li>
-            <strong>Agentic visual reasoning:</strong> data synthesis, SFT, RL and agent harness design.
-          </li>
-          <li>
-            <strong>Latent visual reasoning:</strong> data synthesis, SFT, and RL designs.
-          </li>
-        </ul>
-      </li>
-      <li>
-        <strong>Evaluation and Analysis</strong>
-        <ul>
-          <li>Attribution and analysis of agentic capabilities.</li>
-          <li>Evaluation of multimodal perception capabilities.</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Out-of-distribution Generalization</strong>, with a focus on theoretical analysis
-    and algorithm design across diverse scenarios and modalities, including computer vision, graph
-    data, and the generalization behavior of large language models.
-  </li>
-</ul>
+    <p>
+      Previously, I focused on <strong>out-of-distribution (OOD) generalization</strong>, conducting theoretical
+      analysis and designing algorithms for visual recognition
+      (<a href="https://arxiv.org/pdf/2210.06807">MAT &amp; LDAT</a>), graph tasks
+      (<a href="https://arxiv.org/pdf/2411.02847">CIA-LRA</a>), and in-context learning in large language
+      models (<a href="https://openreview.net/pdf?id=INe4otjryz">ICL-OOD</a>). This background continues
+      to inform my efforts to develop more robust and generalizable methods for MLLMs.
+    </p>
 
     <div class="academic-social" aria-label="Contact links">
       <a href="mailto:qixun.wang@pku.edu.cn" title="Email" aria-label="Email">
@@ -290,7 +271,7 @@ significant performance gains and theoretical guarantees.</div>
   <ul class="compact-list">
     <li>
       <strong>Kling Team, Kuaishou Technology</strong> — Research Intern
-      (March 2026–present)<br>
+      http://arxiv.org/abs/2604.03315(March 2026–present)<br>
       Working on multimodal agents.
     </li>
   </ul>
