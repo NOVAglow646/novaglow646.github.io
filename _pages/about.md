@@ -241,7 +241,7 @@ significant performance gains and theoretical guarantees.</div>
 
 
     <li class="publication-item">
-      <div class="publication-badges">x
+      <div class="publication-badges">
         <span class="publication-badge preprint">arXiv</span>
       </div>
       <div>
