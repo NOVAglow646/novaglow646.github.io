@@ -31,7 +31,7 @@ redirect_from:
       (<a href="https://arxiv.org/pdf/2607.28595">Beacon</a>). Building on these capabilities, I explore
       MLLM applications in audio-video captioning and understanding (<a href="https://arxiv.org/pdf/2607.28509">RefCaptioner</a>), enhancing dynamic 3D world
       generation through programming, assessing the authenticity of AI-generated videos
-      (<a href="https://arxiv.org/pdf/2605.18984">Artifact-Bench</a>, Verus-Insight), and GUI agents
+      (<a href="https://arxiv.org/pdf/2605.18984">Artifact-Bench</a>, <a href="https://arxiv.org/pdf/2610.30866">Verus-Insight</a>), and GUI agents
       (<a href="https://arxiv.org/abs/2608.04530">FocusMem</a>).
     </p>
 
@@ -258,6 +258,28 @@ significant performance gains and theoretical guarantees.</div>
         <div class="publication-links">
           <a href="https://arxiv.org/pdf/2605.18984">PDF</a>
           <a href="https://github.com/FrankYang-17/Artifact-Bench">Code</a>
+        </div>
+      </div>
+    </li>
+
+    <li class="publication-item">
+      <div class="publication-badges">
+        <span class="publication-badge preprint">arXiv</span>
+      </div>
+      <div>
+        <div class="publication-title">
+          Verus-Insight: Towards Explainable Artifact Detection in AI-Generated Videos
+        </div>
+        <div class="publication-authors">
+          Zhuoran Zhang*, Yang Shi*, <u>Qixun Wang*</u>, and a group of outstanding researchers
+        </div>
+        <div class="publication-venue"><em>arXiv preprint</em>, 2026</div>
+        <div class="publication-highlights">
+          <div>• Propose a MLLM with advanced fine-grained spatiotemporal artifact detection capabilities, achieving higher precision and recall across various artifact detection tasks for AI-generated videos.</div>
+        </div>
+        <div class="publication-links">
+          <a href="https://arxiv.org/pdf/2610.30866">PDF</a>
+          <a href="https://github.com/zhangzhuoran997997/Verus-Insight">Code</a>
         </div>
       </div>
     </li>
