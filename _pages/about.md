@@ -106,8 +106,13 @@ redirect_from:
 
   <ol class="publications-list">
     <li class="publication-item">
-      <div class="publication-badges">
-        <span class="publication-badge">CVPR</span>
+      <div class="publication-media">
+        <a class="publication-thumbnail" href="http://arxiv.org/abs/2511.21395" aria-label="Read Monet">
+          <img src="{{ '/images/publications/Monet2.png' | relative_url }}" alt="Overview of the Monet latent visual reasoning framework" width="1182" height="601" loading="lazy" decoding="async">
+        </a>
+        <div class="publication-badges">
+          <span class="publication-badge">CVPR 2026</span>
+        </div>
       </div>
       <div>
         <div class="publication-title">Monet: Reasoning in Latent Visual Space Beyond Images and Language</div>
@@ -115,7 +120,7 @@ redirect_from:
           <u>Qixun Wang</u>, Yang Shi, Yifei Wang, Yuanxing Zhang, Pengfei Wan, Kun Gai,
           Xianghua Ying, and Yisen Wang
         </div>
-        <div class="publication-venue"><em>CVPR</em>, 2026</div>
+        <div class="publication-venue"><em>CVPR</em> 2026</div>
         <div class="publication-highlights">
           <div>
             • Propose a new framework for multimodal latent reasoning, including dataset construction,
@@ -132,15 +137,20 @@ redirect_from:
     </li>
 
     <li class="publication-item">
-      <div class="publication-badges">
-        <span class="publication-badge">ICLR</span>
+      <div class="publication-media">
+        <a class="publication-thumbnail" href="https://openreview.net/pdf?id=INe4otjryz" aria-label="Read ICL-OOD">
+          <img src="{{ '/images/publications/ICL-OOD2.png' | relative_url }}" alt="Illustration of in-context learning on out-of-distribution tasks" width="1400" height="344" loading="lazy" decoding="async">
+        </a>
+        <div class="publication-badges">
+          <span class="publication-badge">ICLR 2025</span>
+        </div>
       </div>
       <div>
         <div class="publication-title">Can In-context Learning Really Generalize to Out-of-distribution Tasks?</div>
         <div class="publication-authors">
           <u>Qixun Wang</u>, Yifei Wang, Xianghua Ying, and Yisen Wang
         </div>
-        <div class="publication-venue"><em>ICLR</em>, 2025</div>
+        <div class="publication-venue"><em>ICLR</em> 2025</div>
         <div class="publication-highlights">
           <div>• Reveal the capability boundary and algorithm selection mechanism of ICL on OOD tasks through carefully designed experiments and theoretical analysis.</div>
         </div>
@@ -152,15 +162,20 @@ redirect_from:
     </li>
 
     <li class="publication-item">
-      <div class="publication-badges">
-        <span class="publication-badge">NeurIPS</span>
+      <div class="publication-media">
+        <a class="publication-thumbnail" href="https://arxiv.org/pdf/2411.02847" aria-label="Read Dissecting the Failure of Invariant Learning on Graphs">
+          <img src="{{ '/images/publications/GRAPH-OOD2.png' | relative_url }}" alt="Illustration of invariant learning on graphs" width="2174" height="820" loading="lazy" decoding="async">
+        </a>
+        <div class="publication-badges">
+          <span class="publication-badge">NeurIPS 2024</span>
+        </div>
       </div>
       <div>
         <div class="publication-title">Dissecting the Failure of Invariant Learning on Graphs</div>
         <div class="publication-authors">
           <u>Qixun Wang</u>, Yifei Wang, Yisen Wang, and Xianghua Ying
         </div>
-        <div class="publication-venue"><em>NeurIPS</em>, 2024</div>
+        <div class="publication-venue"><em>NeurIPS</em> 2024</div>
         <div class="publication-highlights">
           <div>• Theoretically and empirically demonstrate the failure modes of classic invariant learning approaches on graph data, and propose a new training objective with
 significant performance gains and theoretical guarantees.</div>
@@ -173,9 +188,14 @@ significant performance gains and theoretical guarantees.</div>
     </li>
 
     <li class="publication-item">
-      <div class="publication-badges">
-        <span class="publication-badge">NeurIPS</span>
-        <span class="publication-badge spotlight">Spotlight</span>
+      <div class="publication-media">
+        <a class="publication-thumbnail" href="https://arxiv.org/pdf/2210.06807" aria-label="Read Improving Out-of-distribution Generalization by Adversarial Training with Structured Priors">
+          <img src="{{ '/images/publications/AT-OOD2.png' | relative_url }}" alt="Overview of adversarial training with structured priors" width="1360" height="754" loading="lazy" decoding="async">
+        </a>
+        <div class="publication-badges">
+          <span class="publication-badge">NeurIPS 2022</span>
+          <span class="publication-badge spotlight">Spotlight</span>
+        </div>
       </div>
       <div>
         <div class="publication-title">
@@ -184,7 +204,7 @@ significant performance gains and theoretical guarantees.</div>
         <div class="publication-authors">
           <u>Qixun Wang*</u>, Yifei Wang*, Hong Zhu, and Yisen Wang
         </div>
-        <div class="publication-venue"><em>NeurIPS</em>, 2022</div>
+        <div class="publication-venue"><em>NeurIPS</em> 2022</div>
         <div class="publication-highlights">
           <div>• Propose a simple yet effective low-rank adversarial training strategy that improves the OOD generalization of visual recognition models.</div>
         </div>
@@ -196,8 +216,13 @@ significant performance gains and theoretical guarantees.</div>
     </li>
 
    <li class="publication-item">
-      <div class="publication-badges">
-        <span class="publication-badge">ICML</span>
+      <div class="publication-media">
+        <a class="publication-thumbnail" href="https://arxiv.org/pdf/2605.19342" aria-label="Read Semantic-Enriched Latent Visual Reasoning">
+          <img src="{{ '/images/publications/SLVR2.png' | relative_url }}" alt="Overview of the semantic-enriched latent visual reasoning framework" width="1894" height="1300" loading="lazy" decoding="async">
+        </a>
+        <div class="publication-badges">
+          <span class="publication-badge">ICML 2026</span>
+        </div>
       </div>
       <div>
         <div class="publication-title">Semantic-Enriched Latent Visual Reasoning</div>
@@ -205,7 +230,7 @@ significant performance gains and theoretical guarantees.</div>
           Tianrun Xu, Yue Sun, <u>Qixun Wang</u>, Jingyi Lu, Yuan Wang, Tianren Zhang, Longteng Guo,
           Fengyun Rao, Jing Lyu, Feng Chen, and Jing Liu
         </div>
-        <div class="publication-venue"><em>ICML</em>, 2026</div>
+        <div class="publication-venue"><em>ICML</em> 2026</div>
         <div class="publication-highlights">
           <div>• Reveal and address the lack of semantic richness in latent embeddings learned by prior latent visual reasoning training paradigms.</div>
         </div>
@@ -223,15 +248,20 @@ significant performance gains and theoretical guarantees.</div>
 
   <ol class="publications-list">
     <li class="publication-item">
-      <div class="publication-badges">
-        <span class="publication-badge preprint">arXiv</span>
+      <div class="publication-media">
+        <a class="publication-thumbnail" href="https://arxiv.org/pdf/2607.28595" aria-label="Read Beacon">
+          <img src="{{ '/images/publications/beacon.png' | relative_url }}" alt="Overview of Beacon for adaptive agentic visual reasoning" width="1710" height="846" loading="lazy" decoding="async">
+        </a>
+        <div class="publication-badges">
+          <span class="publication-badge preprint">arXiv 2026.07</span>
+        </div>
       </div>
       <div>
         <div class="publication-title">Beacon: Knowing When and Why to Perform Agentic Visual Reasoning</div>
         <div class="publication-authors">
           <u>Qixun Wang</u>*, Yang Shi*, Letian Cheng, Zhuoran Zhang, Yan He, Yuqi Tang, Qi Zhang, Xinlei Yu, Ruizhe Chen, Tianrun Xu, Yuanxing Zhang, Pengfei Wan, Haotian Wang, Xianghua Ying
         </div>
-        <div class="publication-venue"><em>arXiv preprint</em>, 2026</div>
+        <div class="publication-venue"><em>arXiv preprint</em> 2026</div>
         <div class="publication-highlights">
           <div>
             • Conduct a comprehensive analysis of reasoning-mode adaptiveness and tool-induced performance changes in existing agentic visual reasoning models.
@@ -246,8 +276,13 @@ significant performance gains and theoretical guarantees.</div>
     </li>
 
     <li class="publication-item">
-      <div class="publication-badges">
-        <span class="publication-badge preprint">arXiv</span>
+      <div class="publication-media">
+        <a class="publication-thumbnail" href="https://arxiv.org/pdf/2605.18984" aria-label="Read Artifact-Bench">
+          <img src="{{ '/images/publications/artifact_taxonomy.png' | relative_url }}" alt="Taxonomy of AI-generated video artifacts in Artifact-Bench" width="2054" height="1230" loading="lazy" decoding="async">
+        </a>
+        <div class="publication-badges">
+          <span class="publication-badge preprint">arXiv 2026.05</span>
+        </div>
       </div>
       <div>
         <div class="publication-title">
@@ -256,7 +291,7 @@ significant performance gains and theoretical guarantees.</div>
         <div class="publication-authors">
           Yuqi Tang*, Yang Shi*, Zhuoran Zhang*, <u>Qixun Wang*</u>, and a group of outstanding researchers
         </div>
-        <div class="publication-venue"><em>arXiv preprint</em>, 2026</div>
+        <div class="publication-venue"><em>arXiv preprint</em> 2026</div>
         <div class="publication-highlights">
           <div>• Propose a comprehensive benchmark for evaluating MLLMs’ ability to detect and analyze artifacts in AI-generated videos</div>
         </div>
@@ -268,8 +303,13 @@ significant performance gains and theoretical guarantees.</div>
     </li>
 
     <li class="publication-item">
-      <div class="publication-badges">
-        <span class="publication-badge preprint">arXiv</span>
+      <div class="publication-media">
+        <a class="publication-thumbnail" href="https://arxiv.org/pdf/2610.30866" aria-label="Read Verus-Insight">
+          <img src="{{ '/images/publications/verus.png' | relative_url }}" alt="Overview of Verus-Insight for explainable artifact detection in AI-generated videos" width="1682" height="742" loading="lazy" decoding="async">
+        </a>
+        <div class="publication-badges">
+          <span class="publication-badge preprint">arXiv 2026.10</span>
+        </div>
       </div>
       <div>
         <div class="publication-title">
@@ -278,7 +318,7 @@ significant performance gains and theoretical guarantees.</div>
         <div class="publication-authors">
           Zhuoran Zhang*, Yang Shi*, <u>Qixun Wang*</u>, and a group of outstanding researchers
         </div>
-        <div class="publication-venue"><em>arXiv preprint</em>, 2026</div>
+        <div class="publication-venue"><em>arXiv preprint</em> 2026</div>
         <div class="publication-highlights">
           <div>• Propose a MLLM with advanced fine-grained spatiotemporal artifact detection capabilities, achieving higher precision and recall across various artifact detection tasks for AI-generated videos.</div>
         </div>
@@ -296,7 +336,7 @@ significant performance gains and theoretical guarantees.</div>
   <ul class="compact-list">
     <li>
       <strong>Kling Team, Kuaishou Technology</strong> — Research Intern
-      http://arxiv.org/abs/2604.03315(March 2026–present)<br>
+      (March 2026–present)<br>
       Working on multimodal agents.
     </li>
   </ul>
@@ -327,14 +367,3 @@ significant performance gains and theoretical guarantees.</div>
     <li>Award for Academic Excellence (2021)</li>
   </ul>
 </section>
-
-<!--
-Paper teaser images retained for future use:
-<img src="/images/publications/SLVR2.png" alt="SLVR teaser" class="paper-teaser">
-<img src="/images/publications/Monet2.png" alt="Monet teaser" class="paper-teaser">
-<img src="/images/publications/ICL-OOD2.png" alt="ICL-OOD teaser" class="paper-teaser">
-<img src="/images/publications/GRAPH-OOD2.png" alt="Invariant Learning on Graphs teaser" class="paper-teaser">
-<img src="/images/publications/AT-OOD2.png" alt="OOD robustness teaser" class="paper-teaser">
-<img src="/images/publications/artifact_taxonomy.png" alt="ArtifactBench teaser" class="paper-teaser">
-<img src="/images/publications/artifact_taxonomy.png" alt="ArtifactBench teaser" class="paper-teaser">
--->
